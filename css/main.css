@@ -1,0 +1,159 @@
+body{
+	/*background-image: url(..//images/img4.jpg);
+	background-size: cover;
+*//*	color: #fff;
+	font-family: Arial,Helvetica,Sans-serif,/*start:header*/;*/
+	padding: 0;
+	margin: 0;
+}
+.Home{
+	background-image: url(..//images/img4.jpg);
+	background-size: cover;
+
+}
+header{
+	background-color: #111;
+}
+header nav{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+header nav ul{
+	padding: 0;
+	margin: 0;
+	float: right;
+}
+header nav ul li{
+	list-style: none;
+	float: left;
+}
+header nav ul li a{
+	color: purple;
+	padding: 20px;
+	float: left;
+	font-size: 25px;
+	text-decoration: none;
+}
+header nav ul li a:hover{
+	color: orange;
+}
+.me{
+	color: orange;
+    padding-top:310px;
+    margin-left: 700px;
+    font-size: 50px;
+    font-style:sans-serif;
+	 font-weight: bolder;
+}
+.me2{
+	color:purple;
+    padding-bottom:90px;
+    margin-left: 640px;
+    font-size: 40px;
+
+}
+.About{
+	background-color: white;
+	/*background-image: url(..//images/img8.jpg);
+	background-size: cover;
+*/
+
+}
+.who{
+	color: #404244;
+	color: purple;
+    padding-top:200px;
+    margin-left: 100px;
+    font-size: 59px;
+     font-weight: bolder;
+}
+.about{
+	color: #404244;
+	font-weight:900;
+	margin-left:90px;
+	font-size: 20px;
+}
+.per{
+	color: purple;
+    padding-bottom:10px;
+    margin-left: 100px;
+    font-size: 50px;
+    float: right;
+     font-weight: bolder;
+  }
+.cont{
+    color: #404244;
+	margin-left:90px;
+	font-size: 20px;
+	float: right;
+}
+.val{
+	color: purple;
+    padding-bottom:10px;
+    margin-left: 100px;
+    font-size: 50px;
+    font-weight: bolder;
+}
+.ul2{
+	list-style: none;
+}
+header nav ul li{
+	list-style: none;
+	float: left;
+	text-decoration: none;
+}
+header nav img{
+	width: 50%;
+	float: right;
+}
+img {
+    max-width:100%;
+    height:auto;
+}
+h1{
+	color: purple;
+	font-weight: bolder;
+	font-size: 50px;
+}
+h3{
+	color: #404244;
+	font-weight: 900;
+	font-size: 20px;
+}
+.Content{
+	background-color: white;
+
+}
+.nav{
+	color: orange;
+    padding-top:100px;
+    margin-left: 300px;
+    font-size: 50px;
+    font-style:sans-serif;
+	 font-weight: bolder;
+}
+.one{
+	padding-top:50px;
+    margin-left: 300px;
+    font-size: 25px;
+    font-style:sans-serif;
+}
+.two{
+	color: purple;
+	font-size: 25px;
+	font-weight: bolder;
+}
+.ul{
+	color: #404244;
+	text-decoration: none;
+	list-style: none;
+	font-size: 20px;
+}
+.line{
+	position: absolute;
+}
+.para{
+	margin: 30px;
+	padding-left: 500px;
+
+}
