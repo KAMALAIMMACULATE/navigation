@@ -1,15 +1,11 @@
 body{
-	/*background-image: url(..//images/img4.jpg);
-	background-size: cover;
-*//*	color: #fff;
-	font-family: Arial,Helvetica,Sans-serif,/*start:header*/;*/
 	padding: 0;
 	margin: 0;
 }
 .Home{
-	background-image: url(..//images/img4.jpg);
+	background-image: url(..//images/nav1.png);
 	background-size: cover;
-
+	height:0px;
 }
 header{
 	background-color: #111;
@@ -28,79 +24,77 @@ header nav ul li{
 	float: left;
 }
 header nav ul li a{
-	color: purple;
+	color:orange;
 	padding: 20px;
 	float: left;
 	font-size: 25px;
 	text-decoration: none;
 }
 header nav ul li a:hover{
-	color: orange;
+	color: #f20f57;
 }
 .me{
-	color: orange;
+	color: white;
     padding-top:310px;
-    margin-left: 700px;
+    margin-left: 400px;
     font-size: 50px;
     font-style:sans-serif;
 	 font-weight: bolder;
 }
-.me2{
-	color:purple;
-    padding-bottom:90px;
-    margin-left: 640px;
-    font-size: 40px;
-
+.me3{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  color: white;
+  text-transform: uppercase;
+  margin-bottom:900px;
+  font-size: 30px;
+  color:orange;
+  margin-left: 60px;
 }
+
 .About{
-	background-color: white;
-	/*background-image: url(..//images/img8.jpg);
-	background-size: cover;
-*/
-
-}
+	background-color: white}
 .who{
-	color: #404244;
-	color: purple;
+	color:gray;
+	color: orange;
     padding-top:200px;
     margin-left: 100px;
     font-size: 35px;
-     font-weight: bolder;
 }
 .about{
-	color: #404244;
-	font-weight:900;
-	margin-left:90px;
+	color:black;
+	margin-left:100px;
 	font-size: 20px;
 }
 .per{
-	color: purple;
-    padding-bottom:10px;
-    margin-left: 100px;
+	color: orange;
+    padding-bottom:30px;
+    margin-right: 100px;
     font-size: 35px;
-    float: right;
-     font-weight: bolder;
+    float:right;
   }
-.cont{
-    color: #404244;
-	margin-left:90px;
-	font-size: 20px;
-	float: right;
-}
 .val{
-	color: purple;
-    padding-bottom:10px;
-    margin-left: 100px;
+	color: orange;
+    padding-bottom:5px;
+    margin-left:50px;
     font-size: 35px;
-    font-weight: bolder;
 }
 .ul2{
 	list-style: none;
+	margin-bottom:100px;
+}
+.cont{
+    color:black;
+	margin-left:200px;
+	font-size: 20px;
+	float:right;
 }
 header nav ul li{
-	list-style: none;
+	/*list-style: none;*/
 	float: left;
 	text-decoration: none;
+	list-style-position: outside;
 }
 header nav img{
 	width: 50%;
@@ -111,7 +105,7 @@ img {
     height:auto;
 }
 h1{
-	color: purple;
+	color: orange;
 	font-weight: bolder;
 	font-size: 30px;
 }
@@ -128,7 +122,7 @@ h3{
 	color: orange;
     padding-top:100px;
     margin-left: 300px;
-    font-size: 50px;
+    font-size: 40px;
     font-style:sans-serif;
 	 font-weight: bolder;
 }
@@ -138,16 +132,19 @@ h3{
     font-size: 25px;
     font-style:sans-serif;
 }
+.two1{
+	color:orange;
+	font-size: 30px;
+}
 .two{
-	color: purple;
-	font-size: 25px;
-	font-weight: bolder;
+	color:#414245;
+	font-size:20px;
 }
 .ul{
 	color: #404244;
-	text-decoration: none;
+	/*text-decoration: none;
 	list-style: none;
-	font-size: 20px;
+*/	font-size: 20px;
 }
 .line{
 	position: absolute;
@@ -156,4 +153,31 @@ h3{
 	margin: 30px;
 	padding-left: 400px;
 
+}
+
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 20px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+.row2{
+	margin-left:50px;
+	margin-bottom:0px;
+}
+.claa{
+	color: white
 }
